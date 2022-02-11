@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int a;
-    cin >> a;
-    if (a%2==0)
-        cout << "짝";
-    else 
-     cout << "홀";
+  int a;
+  cin >> a;
+  if (a % 2 == 0)
+    cout << "짝";
+  else
+    cout << "홀";
 }

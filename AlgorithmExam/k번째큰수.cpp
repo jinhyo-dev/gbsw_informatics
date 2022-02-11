@@ -15,9 +15,7 @@ int main()
         for (int j = i + 1; j < n; j++)
         {
             if (s[j] < s[min])
-            {
                 min = j;
-            }
         }
         tmp = s[i];
         s[i] = s[min];
